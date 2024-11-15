@@ -84,9 +84,21 @@ body {
     display: grid;
     grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(4, 1fr);
-    gap: 1em;
-    padding-left: 25px;
-    padding-right: 25px;
+    gap: 2em;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.cooking-container img {
+    max-width: 100%;
+    min-height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    grid-row: 2;
+}
+
+.cooking-container p {
+    grid-row: 3;
 }
 
 .cooking-title {
@@ -101,19 +113,91 @@ body {
 
 .cooking-text {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 600;
+    font-size: 1.7rem;
 }
 
-.cooking-container img {
-    max-width: 100%;
-    min-height: 100%;
-    border-radius: 10px;
+/* New Arrivals Section --- --- --- */
+
+.arrivals-container {
+    margin-top: 100px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.arrivals-row {
+    padding-top: 25px;
+    display: flex;
+}
+
+.arrivals-col {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+
+.arrivals-title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.arrivals-container img {
+    width: 100%;
+    height: 60%;
     object-fit: cover;
-    grid-row: 2;
 }
 
-.cooking-container p {
-    grid-row: 3;
+.arrivals-container img:hover {
+    filter: brightness(80%);
+    transition: .2s;
 }
+
+.arrivals-container h3 {
+    padding-top: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.arrivals-container p {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: .9rem;
+    margin-bottom: 0px;
+}
+
+.arrivals-container p span {
+    font-weight: 600;
+}
+
+/* Best Sellers Section --- --- --- */
+
+.bestsellers-container {
+    margin-top: 50px;
+}
+
+.bestsellers-title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bestsellers-row {
+    padding-top: 25px;
+}
+
+.bestsellers-container img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+
+
+
+
 
