@@ -171,6 +171,50 @@ body {
     font-weight: 600;
 }
 
+.color-container {
+    display: flex;
+    padding-top: 10px;
+    gap: 7px;
+}
+
+.selected-color {
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.color-selector1 {
+    border-radius: 50px;
+    border:1px solid #eb2d2c;
+    background-color: #eb2d2c;
+    width:11px;
+    height:11px;
+}
+
+.color-selector2 {
+    border-radius: 50px;
+    border:1px solid #fb510a;
+    background-color: #fb510a;
+    width:15px;
+    height:15px;
+}
+
+.color-selector3 {
+    border-radius: 50px;
+    border:1px solid #d29d12;
+    background-color: #d29d12;
+    width:15px;
+    height:15px;
+}
+
+.color-selector4 {
+    border-radius: 50px;
+    border:1px solid #353535;
+    background-color: #353535;
+    width:15px;
+    height:15px;
+}
+
 /* Best Sellers Section --- --- --- */
 
 .bestsellers-container {
@@ -193,6 +237,8 @@ body {
     border: #5a5a5a 1px solid ;
     border-radius: 10px;
     padding: 25px;
+
+    position: relative;
 }
 
 .bestsellers-container img {
@@ -207,6 +253,11 @@ bestsellers-container h3 {
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
+}
+
+.bestsellers-container .col h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .bestsellers-container p {
@@ -226,6 +277,97 @@ bestsellers-container h3 {
     color: white;
 }
 
+.bestsellers-container .col button {
+    position: absolute;
+    bottom: 20px;
+}
 
+/* Reviews Section --- --- --- */
 
+.reviews-container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.reviews-title {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+
+    margin-top: 100px;
+    padding-bottom: 25px;
+}
+
+.reviews-container .col img {
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+
+    object-fit: cover;
+}
+
+.reviews-container .col section {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: rgb(35, 35, 35, 0.700);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 0 50px;
+    padding-top: 50px;
+    border-radius: 10px;
+
+    position: relative;
+    bottom: 440px;
+}
+
+.reviews-container .col h3 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.reviews-container .col p {
+    font-size: 1rem;
+}
+
+/* Footer Section --- --- --- */
+
+.footer-container {
+    background-color: #1e2c20;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+
+    margin-top: 50px;
+}
+
+.footer-container h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.footer-container p {
+    font-size: .75rem;
+    font-weight: 200;
+}
+
+.footer-container button {
+    background-color: #1e2c20;
+    border: 1px solid white;
+    color: white;
+    font-size: .75rem;
+    font-weight: 200;
+
+    padding: 6px 30px 3px 30px;
+}
+
+.footer-container button:hover {
+    background-color: white;
+    color: #1e2c20;
+    font-weight: 400;
+    border: 1px solid whitesmoke;
+}
 
